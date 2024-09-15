@@ -9,7 +9,7 @@
 ///
 ///@see https://faculty.cs.niu.edu/~hutchins/csci480/signals.htm
 ///
-///@file signalHandler.c
+///@file   signalHandler.c
 ///@author Amanda Eckardt <aze@hawaii.edu>
 ///////////////////////////////////////////////////////////////////////
 #include <signal.h>     // For signal processing
