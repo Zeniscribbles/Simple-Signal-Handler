@@ -29,12 +29,12 @@ void signalHandler(int sig){
 }
 
 
-///Main Program Entry: Signal Processing using signal(). SIGINT is a signal generated when a user presses Control-C.
+///@brief Main Program Entry: Signal Processing using signal(). SIGINT is a signal generated when a user presses Control-C.
 ///                   
 ///
 ///@return exit(EXIT_SUCCESS)
 int main(void){
-     
+      
     struct sigaction sa;
     memset(&sa, 0, sizeof(struct sigaction));   // Clear the sigaction structure
     sa.sa_handler = &signalHandler;             // Set signal handler
