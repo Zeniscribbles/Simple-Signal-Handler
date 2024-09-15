@@ -8,6 +8,9 @@
 ///                     Ring, ring...Hello?
 ///
 ///@see https://faculty.cs.niu.edu/~hutchins/csci480/signals.htm
+///
+///@file signalHandler.c
+///@author Amanda Eckardt <aze@hawaii.edu>
 ///////////////////////////////////////////////////////////////////////
 #include <signal.h>     // For signal processing
 #include <stdio.h>      // For printf
@@ -31,7 +34,6 @@ void signalHandler(int sig){
 
 ///@brief Main Program Entry: Signal Processing using signal(). SIGINT is a signal generated when a user presses Control-C.
 ///                   
-///
 ///@return exit(EXIT_SUCCESS)
 int main(void){
       
